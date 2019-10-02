@@ -12,7 +12,7 @@ const router = new Router({
   routes,
   mode: 'history'
 })
-const LOGIN_PAGE_NAME = 'home'
+/*const LOGIN_PAGE_NAME = 'home'
 
 const turnTo = (to, access, next) => {
   if (canTurnTo(to.name, access, routes)) next() // 有权限，可访问
@@ -50,7 +50,7 @@ router.beforeEach((to, from, next) => {
       })
     }
   }
-})
+})*/
 
 router.afterEach(to => {
   setTitle(to, router.app)
